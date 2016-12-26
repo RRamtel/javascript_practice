@@ -7,6 +7,10 @@ var email = {
     sendEmailFrom : "", //variable from
     sendEmailTo  : "",  //variable to 
     sendEmailBody : "", //variable body
+    
+    /* This function set a value of sendEmailFrom
+        @param from
+    */
     setEmailFrom: function(from){
         this.sendEmailFrom = from;
     },
